@@ -8,4 +8,5 @@ class Anagram
 
   def match
     word.match? { |i| i == i}
+  end
 end
