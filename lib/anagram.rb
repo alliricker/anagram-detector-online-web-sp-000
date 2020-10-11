@@ -12,4 +12,4 @@ class Anagram
 
 end
 
-ba = Anagram.new("ba")
+
