@@ -1,15 +1,15 @@
 class Anagram
 
   attr_accessor :word
-  @@all = []
+  words = []
 
   def initialize(word)
     @word = word
-    @@all << word
+    words << word
   end
 
-def match
-  @@all.select { |x|
+def match(words)
+  words.select { |x|
      (@word.split("").sort) == (x.split("").sort) }
 end
 
