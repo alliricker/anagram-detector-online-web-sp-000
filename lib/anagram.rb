@@ -6,8 +6,6 @@ class Anagram
     @word = word
   end
 
-  def match
-    word.match? { |i| i == i}
-  end
+
 
 end
