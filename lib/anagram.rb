@@ -10,7 +10,8 @@ class Anagram
   end
 
 def self.match
-  @@all.map { |x| x == @word }
+  @@all.some_word.split("")
+  @@all.map { |x| x == @word.some_word.split("") }
 end
 
 end
