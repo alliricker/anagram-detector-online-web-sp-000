@@ -10,7 +10,7 @@ class Anagram
   end
 
 def self.match
-  @all.map { |x| x == @word }
+  @@all.map { |x| x == @word }
 end
 
 end
